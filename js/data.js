@@ -50,8 +50,8 @@ const ic_li = (content) => `<li class="info-container-li">${content}</li>`;
     // SIMPLE DATABASE - JS OBJECT
 const data = {
     jjkworld_data: {
-        explanatory_data: ic_p(`This is ${ic_a("information")}`),
-        extra_data: [ic_li(`${ic_li_span("title")} information`), ic_li(`${ic_li_span("title")} information`)]
+        explanatory_data: ``,
+        extra_data: []
     },
     cursedenergy_data: {
         explanatory_data: ``,
@@ -90,7 +90,7 @@ const data = {
 function prepareExtraData(extra_data_array) {
     // Combines all the data found in the extra_data field into a string and attaches it to a extrajjk-list ul using .innerHTML
 	let ul = document.createElement("ul");
-    ul.classList.add("extrajjk-list");
+    ul.classList.add("extrainfo-list");
     let ul_li_str = "";
     for (let index=0; index < extra_data_array.length; index++) {
         ul_li_str = ul_li_str + extra_data_array[index];
@@ -114,3 +114,11 @@ function getData(data_key, info_container) {
 }
 
 getData(data["jjkworld_data"], jjkworld_info_container);
+getData(data["cursedenergy_data"], cursedenergy_info_container);
+getData(data["cursedspirit_data"], cursedspirit_info_container);
+getData(data["cursedtechnique_data"], cursedtechnique_info_container);
+getData(data["barriertechnique_data"], barriertechnique_info_container);
+getData(data["cursedobject_data"], cursedobject_info_container);
+getData(data["cursedtool_data"], cursedtool_info_container);
+getData(data["jscu_data"], jscu_info_container);
+getData(data["extrajjk_data"], extrajjk_info_container);
