@@ -1,12 +1,189 @@
+@font-face {
+    font-family: meanw;
+    src: url("../font/CCMeanwhile-Regular.woff");
+}
+
+@font-face {
+    font-family: meanw;
+    src: url("../font/CCMeanwhile-Regular.woff");
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: meanw;
+    src: url("../font/CCMeanwhile-Italic.woff");
+    font-style: italic;
+}
+
 * {
-	padding: 0; margin: 0;
-	box-sizing: border-box;
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: meanw;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.viewport-sized-container {
+    width: 100%; height: 100vh;
+    min-height: 812px;
+}
+
+/* ---Home Section--- */
+
+#home-section {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+#home-header {
+    margin-top: 10px;
+}
+
+#home-header h1 {
+    font-size: 2.10rem;
+}
+
+#home-header p {
+    font-size: 0.60rem;
+    color: red;
+}
+
+#home-header h1, #home-header p {
+    text-align: center;
+}
+
+#home-nav-container {
+   background-color: white;
+}
+
+#home-nav-container nav {
+    margin: 19px auto; padding-top: 10px;
+    display: grid;
+    grid-template-rows: repeat(9, auto);
+    border: 2px solid black;
+    width: 94%; height: 90%;
+}
+
+#home-nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.10rem;
+}
+
+#home-nav a:hover {
+    font-size: 1.15rem;
+}
+
+/* Info Sections */
+
+    /* Info-Section Header */
+
+.info-section-header {
+    margin-top: 9px;
+}
+
+.info-section-header h2 {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+    /* Info-Section Nav */
+
+
+.info-section-nav-container {
+    margin-left: 6px; margin-top: 9px;
+    left: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.info-section-nav {
+    position: absolute;
+    background-color: white;
+    border: 2px black solid;
+    display: grid;
+    grid-template-rows: repeat(10, auto);
+    width: 65%; height: 270px;
+    margin-top: 3px; padding-top: 3px;
+}
+
+.info-section-nav a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.67rem;
+}
+
+.info-section-nav a:hover {
+    font-size: 0.77rem;
+}
+
+.dropdown-nav-button {
+    border-radius: 0; border: none;
+    background-color: white;
+    width: 60px; height: 25px;
+    font-family: meanw;
+    font-size: 1rem;
 }
 
 .hidden {
-	display: none;
+    display: none;
 }
+
+    /* Info Container */
+
+.info-container {
+    height: 80%;
+    margin-top: 15px;
+    background-color: white;
+    padding-top: 20px;
+    color: black;
+}
+
+.info-unit {
+    width: 85%; height: 65%;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+    
 
 .li-title {
     font-weight: bolder;
 }
+
+/*
+    ---Class Names---
+.dropdown-nav-button
+.info-section
+.viewport-sized-container
+.info-section-header
+.info-section-nav-container
+.info-container
+.info-container-paragrah
+.li-title
+.info-container-li
+.info-unit
+
+    ---Element IDs---
+#home-section
+#jjkworld-section
+#cursedernergy-section
+#cursedspirit-section
+#cursedtechnique-section
+#barriertechnique-section
+#cursedobject-section
+#cursedtool-section
+#jscu-section
+#extrjjk-section
+
+
+*/
+

@@ -50,9 +50,8 @@ const ic_li = (content) => `<li class="info-container-li">${content}</li>`;
     // SIMPLE DATABASE - JS OBJECT
 const data = {
     jjkworld_data: {
-        explanatory_data: ic_p(`This is information in an HTML Paragraph Element
-This is information in an HTML Paragraph Element and this is a ${ic_a(`link`)}`),
-        extra_data: [ic_li(`${ic_li_span("List Item Title")} This is a list item found in a list`), ic_li(`${ic_li_span("List Item Title")} This is a list item found in a list`)]
+        explanatory_data: ic_p(`This is ${ic_a("information")}`),
+        extra_data: [ic_li(`${ic_li_span("title")} information`), ic_li(`${ic_li_span("title")} information`)]
     },
     cursedenergy_data: {
         explanatory_data: ``,

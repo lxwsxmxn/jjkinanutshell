@@ -27,7 +27,10 @@ function navbar(initial_index=0) {
 }
 
     // Home Navigation
-document.getElementById("home-nav-container").appendChild(navbar(1));
+
+const home_nav = navbar(1);
+home_nav.id = "home-nav"
+document.getElementById("home-nav-container").appendChild(home_nav);
 
 function dropdownButton() {
     // Button to hide and show the navigation bar found in each section except the home section
@@ -41,9 +44,11 @@ function toggleInfoSectionNavbar(nav_node) {
 	// Toggles the visiblity of the navbars located in the info sections
     let node_navbar = nav_node.lastElementChild;
     nav_node.firstElementChild.addEventListener("click", () => {
-        if (node_navbar.classList.length === 1) {
+        if (node_navbar.classList[0] === "hidden") {
+            node_navbar.classList.add("info-section-nav")
             node_navbar.classList.remove("hidden");
         } else {
+            node_navbar.classList.remove("info-section-nav");
             node_navbar.classList.add("hidden");
         }
     });
@@ -52,7 +57,7 @@ function toggleInfoSectionNavbar(nav_node) {
 function infoSectionGenerator(section_id, section_heading_title) {
 	// This function is reponsible for generating info-sections
     let section = document.createElement("section");
-    section.classList.add("info-section", "init-viewport-sized-container");
+    section.classList.add("info-section", "viewport-sized-container");
     section.id = section_id + "-section";
 
     let section_header = document.createElement("header");
