@@ -146,14 +146,44 @@ body {
     background-color: white;
     padding-top: 20px;
     color: black;
+    font-size: 0.75rem; 
 }
 
 .info-unit {
     width: 85%; height: 65%;
     border: 2px solid black;
+    background-color: black;
+    color: white;
     margin: 0 auto;
+    overflow-y: auto;
 }
-    
+
+.info-container-paragraph a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.info-container-paragraph a::before {
+    content: "[-";
+}
+
+.info-container-paragraph a::after {
+    content: "-]";
+}
+
+.info-container-paragraph a:hover {
+    background-color: white;
+    color: black;
+}
+
+.extrainfo-list {
+    border: 2px solid black;
+    width: 85%; height: 30%;
+    margin: 15px auto;
+    padding-left: 20px;
+    font-size: 10px;
+    overflow-y: auto
+}
 
 .li-title {
     font-weight: bolder;
@@ -167,10 +197,11 @@ body {
 .info-section-header
 .info-section-nav-container
 .info-container
-.info-container-paragrah
+.info-container-paragraph
 .li-title
 .info-container-li
 .info-unit
+.extrainfo-list
 
     ---Element IDs---
 #home-section
