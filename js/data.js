@@ -50,8 +50,14 @@ const ic_li = (content) => `<li class="info-container-li">${content}</li>`;
     // SIMPLE DATABASE - JS OBJECT
 const data = {
     jjkworld_data: {
-        explanatory_data: ``,
-        extra_data: []
+        explanatory_data: `${ic_p(`Imagine a world where curses are a real danger, and in that world curses are the cause of
+many mysterious deaths. In the world of Jujutsu Kaisen this is exactly the case, ${ic_a("Curses", "cursedspirit-section")}, which are
+grotesque looking beings are the main reason behind the many mysterious deaths that happen each year.`)}
+${ic_p(`There are people who can see curses and also manipulate the energy that they are made off, and some of this people who are known as 
+${ic_a("Jujutsu Sorcerers", "jscu-section")} use this power to rid the world of curses. 
+${ic_a("Curse Users", "jscu-section")} unlike Jujutsu Sorcerers, use this power for selfish reasons, 
+and it is also the duty of Jujutsu Sorcerers to protect against this individuals.`)}
+${ic_p(`Tokyo Jujutsu High and Kyoto Jujutsu High are educational institutions dedicated to fostering the next generation of Jujutsu Sorceres.`)}`,
     },
     cursedenergy_data: {
         explanatory_data: ``,
