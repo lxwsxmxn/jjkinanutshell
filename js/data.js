@@ -60,8 +60,20 @@ and it is also the duty of Jujutsu Sorcerers to protect against this individuals
 ${ic_p(`Tokyo Jujutsu High and Kyoto Jujutsu High are educational institutions dedicated to fostering the next generation of Jujutsu Sorceres.`)}`,
     },
     cursedenergy_data: {
-        explanatory_data: ``,
-        extra_data: []
+        explanatory_data: `${ic_p(`The source of power used by ${ic_a("Cursed Spirits", "cursedspirit-section")} and ${ic_a("Sorceres", "jscu-section")} to fuel their
+${ic_a("jujutsu", "cursedtechnique-section")} is known as Cursed Energy. Negative emotions such as grief and anger are the foundation of cursed energy, this means a vast majority
+of humans possess this energy. Cursed energy leaks from non-sorcerers, accumaltes and ferments over time until a cursed spirit manifests, this because they are not trained to control
+this energy. If the amount of this energy is higher than a certain degree, a person will be able to see cursed spirits. The a higher the amount of cursed energy
+in a sorcerer or cursed spirit the stronger they are.`)}
+${ic_p(`Things such as ${ic_a("Cursed Objects", "cursedobject-section")}, ${ic_a("Cursed Tools", "cursedtool-section")} and Cursed Corpses all contain cursed energy. The properties of
+cursed energy vary from person to person.`)}`,
+        extra_data: [
+            ic_li(`Cursed energy is used to fuel cursed techniques, reinforce the body, or activate talisman. It also other uses.`),
+            ic_li(`The properties of cursed energy vary from person to person.`),
+            ic_li(`Its connection to the human brain is shrouded in mystery.`),
+            ic_li(`There are rare cases where cursed energy carries a special property unique to its user. e.g Kinji Hakari's cursed energy has a rough texture to it.`),
+            ic_li(`In rare are some people are born with no cursed energy. e.g Toji and Maki`)
+        ]
     },
     cursedspirit_data: {
         explanatory_data: ``,
