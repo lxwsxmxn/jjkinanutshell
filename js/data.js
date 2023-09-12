@@ -76,8 +76,23 @@ cursed energy vary from person to person.`)}`,
         ]
     },
     cursedspirit_data: {
-        explanatory_data: ``,
-        extra_data: []
+        explanatory_data: `${ic_p(`Cursed Spirits or Curses, are the result of ${ic_a("Cursed Energy", "cursedenergy-section")} that leaks out of humans over time
+because their negative emotions. Cursed spirits haunt and bring harm to humanity and are the major reason there are ${ic_a("Jujutsu Sorcerers", "jscu-section")}.
+`)}${ic_p(`The origin of curses and jujutsu is for the most part unknown. The working theory is that since cursed energy comes from negative emotions, curses have always
+existed alongside humanity. Annually in Japan, the number of unexplained deaths and disappearance exceeds ten thousand. This is the due the effect cursed spirits have on society.`)}
+${ic_p(`Cursed spirits are created when the cursed energy leaks from non-sorcerers as a result of habouring negative emotions. The cursed energy thus gathers in one spot, building
+up until a cursed spirit takes form. Populated places such as schools and hospitals are hotspots fro bearing curses becuase many negative emotions are associated with memories of those
+places. An image of fear shared by the masses can create a powerful curse even if the subject is not real, like famous monsters and ghosts. The negative emotions that humanity
+directs a this image is what causes it to menifest.`)}`,
+        extra_data: [
+            ic_li(`${ic_li_span("Ryomen Sukuna")} was recognized as the undisputed King of Curse during the Heian Era, the golden age of Jujutsu.`),
+            ic_li(`A cursed spirit's body is entirely made up of cursed energy.`),
+            ic_li(`Non-socerers can not see cursed spirits, however when in danger because of a curse they may gain the ability to see it in that life or death situation.`),
+            ic_li(`They come in all kinds of grotesque shapes and sizes.`),
+            ic_li(`They tend to linger around their point of origin.`),
+            ic_li(`Sorcerers should be killed with jujutsu or they can become a vengeful spirit after death.`),
+            ic_li(`Cursed spirits can only be demaged and exorcised with cursed energy.`)
+]
     },
     cursedtechnique_data: {
         explanatory_data: ``,
