@@ -95,8 +95,23 @@ directs a this image is what causes it to menifest.`)}`,
 ]
     },
     cursedtechnique_data: {
-        explanatory_data: ``,
-        extra_data: []
+        explanatory_data: `${ic_p(`A Cursed Technique is an ability fueled by ${ic_a("Cursed Energy", "cursedenergy-section")}. There are different types of cursed techniques;
+innate techniques, ${ic_a("barrier techniques", "barriertechnique-section")}, shikigami conjuration, and more.`)}
+${ic_p(`A cursed technique is activated by pouring cursed energy into it, by using the process of Lapse or Reversal. Lapse refers to the default or neutral state of activation of
+a cursed technique. To activate a cursed technique in lapse, the caster circulates their cursed energy in a forward direction to channel it into their ability. Reversal produces 
+positive energy by multiplying negative energy with negative energy. Positive energy can heal physical injuries. Reversal requires a high level of cursed energy manipulation, thus
+the ability to use reversal is rare.`)}
+${ic_p(`Cursed techniques often require hand signs, empowered word, or other gestures to activate. A sorcerer's skill is determined by the degree to which they can minimize
+and omit these factors to make their abilities more efficient. The purposeful inclusion of incantations or rituals can elevate a cursed techniques's effectiveness.`)
+}`,
+        extra_data: [
+            ic_li(`${ic_li_span("Innate Techniques")} are unique abilities congenitally engraved into the user's body. e.g. Straw Doll Technique, Ratio Technique, and Construction`),
+            ic_li(`${ic_li_span("Inherited Techiques")} are innate techniques passed down to sorcerers in the same bloodline. e.g. Ten Shadows Technique, Limitless, and Cursed Speech`),
+            ic_li(`${ic_li_span("Extension Techniques")} are original abilities derived from innate techniques. e.g Straw Doll Technique: Resonance and Ration Technique: Collapse`),
+            ic_li(`${ic_li_span("Maximum Output")} extension techniques with the highest possible cursed energy output channeled into then. e.g Flowing Red Scale: Stack`),
+            ic_li(`${ic_li_span("Maximum Techniques")} are extension techniques that bring out the greates potential of their derived innate technique. e.g. Maximum: Uzumaki`),
+            ic_li(`${ic_li_span("Shikigami Techniques")} conjure shikigami to aid the user using a variety of methods. e.g. Ten Shadows Technique, Moon Dregs.`)
+]
     },
     barriertechnique_data: {
         explanatory_data: ``,
