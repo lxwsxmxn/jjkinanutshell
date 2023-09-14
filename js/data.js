@@ -114,8 +114,23 @@ and omit these factors to make their abilities more efficient. The purposeful in
 ]
     },
     barriertechnique_data: {
-        explanatory_data: ``,
-        extra_data: []
+        explanatory_data: `${ic_p(`Barrier Techniques are ${ic_a("Cursed Techinques", "curesedtechnique-section")} that employ barrier zones to trap entities within a space or
+to prevent thme from entering one. Simple barriers, like curtains, are often utilized by those without an innate technique.`)}
+${ic_p(`Creating a barrier, requires an individual to construct a formula within themselves from scratch, after that they add empowered words, and then flow 
+${("cursed energy", "cursedenergy-section")} through the formula to activate the technique. This is a very complex for even the most talented jujutsu practioners. Many powerful
+${ic_a("Sorcerers", "jscu-section")} with innate techniques can not even perform barrier techniques.`)}
+`,
+        extra_data: [
+            ic_li(`${ic_li_span("Curtains")} are vast simple barriers with a spherical shell that conceal jujutsu activity from non-sorcerers. They also force cursed spirits to reveal
+themselves within the barrier.`),
+            ic_li(`${ic_li_span("Domain Expansions")} are a innate domain manifested using cursed energy inside a barrier imbued with the user's innate technique. Expanding this domain
+improves one's abilities and ensures that all techniques employed within the barrier are guaranteed to hit their target.`),
+            ic_li(`${ic_li_span("Empty Barriers")} are vacant zones where the edge is defined by an outer shell made of hexagon-shaped panels, the structure of which can be freely
+changed by skilled barrier technique user.`),
+            ic_li(`${ic_li_span("Pure and Bon Barriers")} are superior versions of a barrier, with the latter being more advanced.`),
+            ic_li(`${ic_li_span("Anti-Domain Techniques")} are countermeasures designed to withstand the can't-miss attack of opposing domain expansions. e.g. New Shadow Style:
+Simple Domain`)
+        ]
     },
     cursedobject_data: {
         explanatory_data: ``,
