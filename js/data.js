@@ -133,8 +133,21 @@ Simple Domain`)
         ]
     },
     cursedobject_data: {
-        explanatory_data: ``,
-        extra_data: []
+        explanatory_data: `${ic_p(`A Cursed objects is an item with a dark history that contains ${ic_a("cursed energy", "cursedenergy-section")}. In most cases these item consists of 
+remnants of an ancient ${ic_a("sorcerer", "jscu-section")} that can be incarnated into a new body if the cursed object is consumed by a compatible vessel.`)}
+${ic_p(`With the exception of cursed ${ic_a("tools", "cursedtool-section")} and corpses, items that contain cursed energy are reffered to as cursed objects. A cursed object is ranked in
+the same way as a cursed tool, based on the strength of the cursed energy they contain. Dangerous cursed objects such as Ryomen Sukuna's fingers, are ranked special grade. Special
+grade cursed objects cannot be destroyed and their continued existence is guaranteed under the binding vow used to create them; which dictates that the individuals who become cursed
+objects cease to live and cannot harm others.`)}`,
+        extra_data: [
+            ic_li(`Sealed special grade cursed objects can be used as amulets to ward of cursed spirits.`),
+            ic_li(`Sukuna is the only individual throughout history who was able to transform himself into a cursed object after death.`),
+            ic_li(`${ic_li_span("Ryomen Sukuna's Fingers")} are twenty fingers of Sukuna's original body from the Heian Era. Each one contains immense curse energy and is capable
+of attracting cursed spirits as they are unsealed.`),
+            ic_li(`${ic_li_span("Cursed Womb: Death Paintings")} are born from a pregnant woman in the Meiji Era which contain human DNA. They can incarnate when ingested by any
+human, taking the form of a powerful cursed spirit with a physical body.`),
+            ic_li(`${ic_li_span("Prison Realm")} is a living barrier capabale of sealing its targer within another inescapable dimension.`)
+]
     },
     cursedtool_data: {
         explanatory_data: ``,
