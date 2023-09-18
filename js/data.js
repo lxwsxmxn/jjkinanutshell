@@ -150,8 +150,19 @@ human, taking the form of a powerful cursed spirit with a physical body.`),
 ]
     },
     cursedtool_data: {
-        explanatory_data: ``,
-        extra_data: []
+        explanatory_data: `${ic_p(`Cursed Tools are weapons and support items that are purpsosefully infused with cursed energy. Conventional weapons like katanas can become
+semi cursed tools over time if the user constantly imbues it with their cursed energy, however this does not apply to weapons new to user. Cursed tools are ranked based on their
+potency. The higher the grade of a cursed tool, the greater the advantage granted to the user in a battle.`)}
+${ic_p(`Except for Playful Cloud, all special grade cursed tools are imbued with a ${ic_a("cursed tecnique", "cursedtechnique-section")}. Powerful cursed tools are extremely
+valuable. All the cursed tools collected by the Big Three SSorcerer Families were stored in a vault called the cursed warehouse. However following the events of the Shibuya
+Incident the Zenin and Kamo clans reclaimed their respective weapons, emptying the warehouse of cursed tools.`)}`,
+        extra_data: [
+            ic_li(`${ic_li_span("Black Rope")} has the ability to mess with the effects of cursed techniques. The more its used, the more it burns away`),
+            ic_li(`${ic_li_span("Playful Cloud")} is a special grade cursed tool not imbued with a technique, its just destructive power that reflects the user's physical strength.`),
+            ic_li(`${ic_li_span("Inverted Spear of Heaven")} is a special grade cursed tool that has the ability to nullify all cursed techniques on contact.`),
+            ic_li(`${ic_li_span("Chain of a Thousand Miles")} is a cursed chain that can extend forever as long as the user keeps the chain from being seen.`),
+            ic_li(`${ic_li_span("Sword of Extermination")} is a blade used Mahoraga that is coated in positive energy.`)
+        ]
     },
     jscu_data: {
         explanatory_data: ``,
