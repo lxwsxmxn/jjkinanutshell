@@ -164,9 +164,25 @@ Incident the Zenin and Kamo clans reclaimed their respective weapons, emptying t
             ic_li(`${ic_li_span("Sword of Extermination")} is a blade used Mahoraga that is coated in positive energy.`)
         ]
     },
-    jscu_data: {
-        explanatory_data: ``,
-        extra_data: []
+    jscu_data: { explanatory_data: `${ic_p(`Jujutsu Sorcerers are sorcerers who are secretly trained and employed by the government of Japan to defend humanity from 
+${ic_a("cursed spirits", "cursedspirit-section")}. There are only two educational institutions where the training of sorcers is done, Tokyo and Kyoto Jujutsu High.`)}
+${ic_p(`Jujutsu sorcerers have been around for thousands of years. The King of Curses Ryomen Sukuna who was human over two thousand years ago claims jujutsu sorcerers have been
+an issue in every era. As a result of the ongoing conflict between sorcerers and curses that has spanned thousands of years, a society of sorcerers have organized themselves
+to work in the shadows to suppress curses in an effort to protect non-sorcerers. In the modern era, the Big Three Families and the jujutsu higher-ups control the jujutsu
+community.`)}
+${ic_p(`The bare minimun to be considered a sorcerer is the ability to see cursed spirits. To be a jujutsu sorcerer as a profession, one must possess high levels of cursed
+energy and is born with the innate talent to use cursed techniques. There are exceptions to this, those without an innate technique, Yuji Itadori and and Atsuya Kusakabe;
+and even those without cursed energy at all, like Maki Zen'nit, can become jujutsu sorceres.`)}
+${ic_p(`There are sorcerers who use Jujutsu for evil and malicious deeds such as killing, and they are known as Curse Users. This individual have been around as long as jujtsu
+sorcerers, and were also prominent threats during the Heian Era alongside cursed spirits. The high number of cursed spirits in the modern era has made being a professional
+jujutsus sorcerer a demanding job, and not all born with the talent for jujutsu want to use it to exorcise curses. And because of this Jujutsu High is always understaffed with
+jujutsu sorcerers.`)}
+${ic_p(`Before 1989, curse users could freely make money by operating in the underworld and doing any dark deed asked of them. These individuals were able to live selfishly to
+their heart's content until the birth of Satoru Gojo.`)}`,
+        extra_data: [
+            ic_li(`Notable Jujutsu Sorcerers: Satoru Gojo, Mei Mei, Kento Nanami.`),
+            ic_li(`Notable Curse Users: Geto Suguru, Miguel, Kenjaku, Uraume.`)
+        ]
     },
     extrajjk_data: {
         explanatory_data: ``,
