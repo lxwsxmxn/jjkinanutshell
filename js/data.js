@@ -28,7 +28,6 @@ cursedobject_info_container.appendChild(createInfoUnit());
 cursedtool_info_container.appendChild(createInfoUnit());
 jscu_info_container.appendChild(createInfoUnit());
 barriertechnique_info_container.appendChild(createInfoUnit());
-extrajjk_info_container.appendChild(createInfoUnit());
 
 // DATA
 /*
@@ -56,7 +55,7 @@ grotesque looking beings are the main reason behind the many mysterious deaths t
 ${ic_p(`There are people who can see curses and also manipulate the energy that they are made off, and some of this people who are known as 
 ${ic_a("Jujutsu Sorcerers", "jscu-section")} use this power to rid the world of curses. 
 ${ic_a("Curse Users", "jscu-section")} unlike Jujutsu Sorcerers, use this power for selfish reasons, 
-and it is also the duty of Jujutsu Sorcerers to protect against this individuals.`)}
+and it is also the duty of Jujutsu Sorcerers to protect people against this individuals.`)}
 ${ic_p(`Tokyo Jujutsu High and Kyoto Jujutsu High are educational institutions dedicated to fostering the next generation of Jujutsu Sorceres.`)}`,
     },
     cursedenergy_data: {
@@ -172,7 +171,7 @@ to work in the shadows to suppress curses in an effort to protect non-sorcerers.
 community.`)}
 ${ic_p(`The bare minimun to be considered a sorcerer is the ability to see cursed spirits. To be a jujutsu sorcerer as a profession, one must possess high levels of cursed
 energy and is born with the innate talent to use cursed techniques. There are exceptions to this, those without an innate technique, Yuji Itadori and and Atsuya Kusakabe;
-and even those without cursed energy at all, like Maki Zen'nit, can become jujutsu sorceres.`)}
+and even those without cursed energy at all, like Maki Zen'nin, can become jujutsu sorceres.`)}
 ${ic_p(`There are sorcerers who use Jujutsu for evil and malicious deeds such as killing, and they are known as Curse Users. This individual have been around as long as jujtsu
 sorcerers, and were also prominent threats during the Heian Era alongside cursed spirits. The high number of cursed spirits in the modern era has made being a professional
 jujutsus sorcerer a demanding job, and not all born with the talent for jujutsu want to use it to exorcise curses. And because of this Jujutsu High is always understaffed with
@@ -185,8 +184,13 @@ their heart's content until the birth of Satoru Gojo.`)}`,
         ]
     },
     extrajjk_data: {
-        explanatory_data: ``,
-        extra_data: []
+        extra_data: [
+            ic_li(`${ic_li_span("Binding Vow")} is a pact made with jujutsu that creates conditions for themselves or agreement with others.`),
+            ic_li(`${ic_li_span("Heavenly Restriction")} are bindings placed on a sorcerer's boyd when they are born. Only Maki, Toji and Kokichi are known to have this binding.`),
+            ic_li(`${ic_li_span("Residauls")} is cursed energy left behind behind due to the usage of cursed energy.`),
+            ic_li(`${ic_li_span("Non-Curse Users")} are evil non-sorcerers who know about jujutsu and are active in the curse user.`),
+            ic_li(`${ic_li_span("Star Plasma Vessels")} are young women who posses the requisitte potential to refresh Tengen's Immortality by merging with them.`)
+        ]
     } 
 };
 
